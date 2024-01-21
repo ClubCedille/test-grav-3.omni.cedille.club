@@ -1,0 +1,9 @@
+enabled: true
+route: /
+filters:
+  category: null
+feed_parameters:
+  count: 7
+  cache_time: 1
+  user_id: cedille.etsmtl
+  access_token: a98abb42d9fd2627badae2d5fbec5b92
