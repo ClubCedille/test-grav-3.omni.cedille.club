@@ -10,8 +10,6 @@ Congratulations! You have installed the **Base Grav Package** that provides a **
 
 !! If you see a **404 Error** when you click `Typography` in the menu, please refer to the [troubleshooting guide](http://learn.getgrav.org/troubleshooting/page-not-found).
 
-<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-38ebde3f-006c-42fa-be62-81136c635fd5"></div>
 
 ### Find out all about Grav
 
