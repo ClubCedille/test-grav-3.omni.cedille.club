@@ -1,5 +1,5 @@
 ---
-title: Contacct
+title: Contact
 cache_enable: false
 content:
     items: '@self.modular'
