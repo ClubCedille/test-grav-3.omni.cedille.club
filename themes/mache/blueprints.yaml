@@ -37,6 +37,7 @@ form:
         help: THEME_MACHE.LEFT_FOOTER_HELP
     right_footer:
         type: editor
+        title: THEME_MACHE.TITLE_FOOTER
         label: THEME_MACHE.RIGHT_FOOTER
         help: THEME_MACHE.RIGHT_FOOTER_HELP
     blog_thumbnail_width:
