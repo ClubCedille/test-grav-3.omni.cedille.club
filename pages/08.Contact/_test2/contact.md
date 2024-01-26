@@ -1,5 +1,6 @@
 ---
 title: test2
+zoom: 12
 ---
 
 Thank you for your email!
