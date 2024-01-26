@@ -1,6 +1,6 @@
 ---
-title: Blog
-blog_url: blog
+title: Évènements
+blog_url: évènement
 sitemap:
     changefreq: monthly
     priority: 1.03
@@ -12,7 +12,7 @@ content:
     limit: 6
     pagination: true
 feed:
-    description: 'Sample Blog Description'
+    description: 'Nos Événements'
     limit: 10
 pagination: true
 ---
