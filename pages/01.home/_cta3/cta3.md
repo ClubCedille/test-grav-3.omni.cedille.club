@@ -1,8 +1,16 @@
 ---
-title: Please share some love by appreciate it and download!
-button_label: DOWNLOAD NOW
-button_url: "#"
+title: 'POURQUOI NOUS JOINDRE'
+button_label: 'NOUS JOINDRE'
+button_url: '#'
 image: safaribanner.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+Un projet de production théâtrale apportera les retombées suivantes pour l’ÉTS ainsi que pour sa communauté :
+
+* Visibilité externe
+* Élargissement des horizons culturels de la population de l'ÉTS
+* Développement de la pensée créative
+* Amélioration des compétences en communication
+* Lieu d'échange où faire entendre sa voix
+* Amélioration des compétences en gestion de projet et en travail d'équipe
+* Application créative de l'ingénierie
