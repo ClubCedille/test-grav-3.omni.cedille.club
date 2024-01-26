@@ -7,4 +7,3 @@ background_image: hero-background.jpg
 media_order: 'banner.png,acets.png'
 ---
 
-Conception et fabrication d’un avion-cargo télécommandé pouvant soulever la plus lourde charge possible, et ce, tout en décollant en moins de 200 pieds (61 m), en exécutant un vol et en atterrissant en moins de 400 pieds (122 m).
