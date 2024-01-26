@@ -1,10 +1,8 @@
 <ul>
-{% if page.template == 'modular' %}
     {% for p in pages.children.visible %}
     {% set current_page = (p.active or p.activeChild) ? ' active' : '' %}
     <li class="menu-item{{ current_page }}">
         <a href="{{ p.url }}">{{ p.menu }}</a>
     </li>
     {% endfor %}
-{% endif %}
 </ul>
