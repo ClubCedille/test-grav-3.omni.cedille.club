@@ -17,3 +17,4 @@ default_background_image:
     type: image/jpeg
     size: 209416
     path: user/themes/mache/images/hero-background.jpg
+right_footer: "Test\n\ndada"
