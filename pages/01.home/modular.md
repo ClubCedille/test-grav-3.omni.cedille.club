@@ -9,16 +9,9 @@ content:
         custom:
             - _banner
             - _about
-            - _services
-            - _testimonials
-            - _prices
+            - _cta3
             - _features
             - _cta1
-            - _updates
-            - _cta2
-            - _cta3
-            - _contact
-            - _map
 form:
     action: /home
     name: contact
