@@ -3,5 +3,17 @@ left_footer: null
 blog_thumbnail_width: 600
 blog_thumbnail_height: 450
 favicon: {  }
-logo: {  }
-default_background_image: {  }
+logo:
+  user/themes/mache/images/logo-yellow.png:
+    name: logo-yellow.png
+    full_path: logo-yellow.png
+    type: image/png
+    size: 8083
+    path: user/themes/mache/images/logo-yellow.png
+default_background_image:
+  user/themes/mache/images/hero-background.jpg:
+    name: hero-background.jpg
+    full_path: hero-background.jpg
+    type: image/jpeg
+    size: 209416
+    path: user/themes/mache/images/hero-background.jpg
