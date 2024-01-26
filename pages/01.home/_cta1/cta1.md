@@ -1,6 +1,8 @@
 ---
-title: Call to Action
-heading: Became A Part Of <span>Mache</span> Community Today
-button_label: JOIN US
-button_url: "#"
+title: 'Call to Action'
+heading: 'Entrer en contact'
+button_label: 'Contactez nous'
+button_url: /contact
 ---
+
+> 
