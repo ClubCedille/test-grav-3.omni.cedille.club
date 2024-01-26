@@ -1,5 +1,5 @@
 ---
-title: presentation
+title: 'La magie du théâtre avec Les Raconteurs d''angles'
 right_image: rightlaptop.png
 right_image_alt: 'Powerfull PSD template available for free!'
 link_label: 'EN SAVOIR PLUS'
