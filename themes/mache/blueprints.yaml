@@ -35,6 +35,10 @@ form:
         type: editor
         label: THEME_MACHE.LEFT_FOOTER
         help: THEME_MACHE.LEFT_FOOTER_HELP
+    right_footer:
+        type: editor
+        label: THEME_MACHE.RIGHT_FOOTER
+        help: THEME_MACHE.RIGHT_FOOTER_HELP
     blog_thumbnail_width:
         type: number
         label: THEME_MACHE.BLOG_THUMBNAIL_WIDTH
