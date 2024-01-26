@@ -1,5 +1,5 @@
 ---
-title: 'Raconteurs d''angle'
+title: Accueil
 cache_enable: false
 content:
     items: '@self.modular'
