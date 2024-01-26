@@ -1,6 +1,5 @@
 ---
-title: 'AVION CARGO'
-menu: Accueil
+title: 'L''art captivant sous tous les prismes'
 heading: '<span>Avion Cargo</span>'
 button_label: 'En savoir plus'
 button_url: '#'
