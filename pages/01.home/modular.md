@@ -1,5 +1,5 @@
 ---
-title: ACETS
+title: 'Raconteurs d''angle'
 cache_enable: false
 content:
     items: '@self.modular'
