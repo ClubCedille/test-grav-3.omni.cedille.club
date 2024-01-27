@@ -8,9 +8,9 @@
         </div>
         </div>
         {% if page.header.visions %}
-        <div class="row">
+        <div class="row justify-content-center align-items-center">
             {% for element in page.header.visions %}
-            <div class="col-lg-3 col-sm-6 col-md-3 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
+            <div class="col-lg-4 col-sm-6 col-md-4 os-animation text-center" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
                 <h3>{{ element.title|raw }}</h3>
                 <span class="line"></span>
                 {{ element.text|raw }}
