@@ -207,11 +207,12 @@ nav ul li a:hover {
 	color: #facd8a;
 	padding: 15px 0;
 }
+
 .hover-animate h3, .hover-animate div {
 	position: relative;
   }
   
-  /* Existing Top and Bottom Borders */
+  /* Top and Bottom Borders */
   .hover-animate h3:before, .hover-animate h3:after,
   .hover-animate div:before, .hover-animate div:after {
 	content: '';
@@ -226,33 +227,28 @@ nav ul li a:hover {
   }
   
   .hover-animate h3:before, .hover-animate div:before { top: 0; }
-  .hover-animate h3:after, .hover-animate div:after { bottom: 0; transform-origin: right center; }
-  
-  .hover-animate h3::before, .hover-animate div::before {
-	content: '';
-	position: absolute;
-	top: 0;
+  .hover-animate h3:after, .hover-animate div:after {
 	bottom: 0;
-	left: 0;
-	width: 2px;
-	background: #facd8a;
-	transition: transform 0.5s ease;
-	transform: scaleY(0);
+	transform-origin: right center;
   }
   
+  /* Left and Right Borders - New */
+  .hover-animate h3::before, .hover-animate div::before,
   .hover-animate h3::after, .hover-animate div::after {
 	content: '';
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	right: 0;
 	width: 2px;
 	background: #facd8a;
 	transition: transform 0.5s ease;
 	transform: scaleY(0);
   }
   
-  /* Hover State for All Borders */
+  .hover-animate h3::before, .hover-animate div::before { left: 0; transform-origin: top center; }
+  .hover-animate h3::after, .hover-animate div::after { right: 0; transform-origin: bottom center; }
+  
+  /* Hover State - Updated to include new borders */
   .hover-animate:hover h3:before, .hover-animate:hover h3:after,
   .hover-animate:hover h3::before, .hover-animate:hover h3::after,
   .hover-animate:hover div:before, .hover-animate:hover div:after,
