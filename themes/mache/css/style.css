@@ -439,7 +439,7 @@ transform-origin: right center;
 	text-align: center;
 	font-weight: 700;
 	position: relative;
-	top: -10px;
+	top: 20px;
 }
 .joinnow a:hover {
 	background: #5a5a5a;
