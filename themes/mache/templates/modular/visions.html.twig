@@ -10,10 +10,14 @@
         {% if page.header.visions %}
         <div class="row justify-content-center align-items-center">
             {% for element in page.header.visions %}
-            <div class="col-lg-4 col-sm-6 col-md-4 os-animation text-center hover-animate" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
-                <h3>{{ element.title|raw }}</h3>
+            <div class="col-lg-4 col-sm-6 col-md-4 os-animation text-center" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
+                <div class="hover-animate">
+                    <h3>{{ element.title|raw }}</h3>
+                </div>
                 <span class="line"></span>
-                {{ element.text|raw }}
+                <div class="hover-animate">
+                    {{ element.text|raw }}
+                </div>
             </div>
             {% endfor %}
         </div>
