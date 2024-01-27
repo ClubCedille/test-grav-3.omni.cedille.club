@@ -25,5 +25,6 @@ features:
         icon: 6.png
         title: 'RÉGIE ET TECHNIQUE DE SCÈNE'
         description: 'Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+media_order: round-table.png
 ---
 
