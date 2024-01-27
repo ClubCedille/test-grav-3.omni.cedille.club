@@ -207,51 +207,58 @@ nav ul li a:hover {
 	color: #facd8a;
 	padding: 15px 0;
 }
+
 .hover-animate h3, .hover-animate div {
 	position: relative;
-	overflow: hidden;
   }
   
-  .hover-animate h3::before, .hover-animate h3::after,
-  .hover-animate h3:before, .hover-animate h3:after,
-  .hover-animate div::before, .hover-animate div::after,
-  .hover-animate div:before, .hover-animate div:after {
+.hover-animate h3:before, .hover-animate h3:after {
 	content: '';
 	position: absolute;
-	background: #facd8a;
-	transition: transform 0.3s ease;
-  }
-  
-  .hover-animate h3::before, .hover-animate h3::after,
-  .hover-animate div::before, .hover-animate div::after {
-	height: 1px;
 	left: 0;
 	right: 0;
+	height: 2px;
+	background: #facd8a;
+	transition: transform 0.5s ease;
+	transform: scaleX(0);
+	transform-origin: left center; 
+}
+
+.hover-animate h3:before {
+	top: 0;
+}
+
+.hover-animate h3:after {
+	bottom: 0;
+	transform-origin: right center;
+}
+
+.hover-animate div:before, .hover-animate div:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background: #facd8a;
+	transition: transform 0.5s ease;
 	transform: scaleX(0);
 	transform-origin: left center;
-  }
-  
-  .hover-animate h3::before, .hover-animate div::before { top: 0; }
-  .hover-animate h3::after, .hover-animate div::after { bottom: 0; transform-origin: right center; }
-  
-  .hover-animate h3:before, .hover-animate h3:after,
-  .hover-animate div:before, .hover-animate div:after {
-	width: 1px;
-	top: 0;
-	bottom: 0;
-	transform: scaleY(0);
-	transform-origin: top center;
-  }
-  
-  .hover-animate h3:before, .hover-animate div:before { left: 0; }
-  .hover-animate h3:after, .hover-animate div:after { right: 0; transform-origin: bottom center; }
-  
-  .hover-animate:hover h3::before, .hover-animate:hover h3::after,
-  .hover-animate:hover h3:before, .hover-animate:hover h3:after,
-  .hover-animate:hover div::before, .hover-animate:hover div::after,
-  .hover-animate:hover div:before, .hover-animate:hover div:after {
+}
+
+.hover-animate div:before {
+top: 0;
+}
+
+.hover-animate div:after {
+bottom: 0;
+transform-origin: right center;
+}
+
+.hover-animate:hover h3:before, .hover-animate:hover h3:after,
+.hover-animate:hover div:before, .hover-animate:hover div:after {
 	transform: scale(1);
-  }  
+}
+  
   
 .testimonials {
 	background-repeat: no-repeat;
