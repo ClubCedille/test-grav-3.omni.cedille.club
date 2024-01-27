@@ -3,15 +3,12 @@ title: 'Notre vision'
 services:
     -
         icon: s1.png
-        title: 'FULLY EDITABLE'
+        title: 'CRÉATION VS INTERPRÉTATION'
     -
         icon: s2.png
-        title: 'FREE DOWNLOAD'
+        title: COLLABORATION
     -
         icon: s3.png
-        title: 'MODERN DESIGN'
-    -
-        icon: s4.png
-        title: '100% RESPONSIVE'
+        title: COMPOSITION
 ---
 
