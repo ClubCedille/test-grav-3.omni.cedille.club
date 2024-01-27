@@ -212,7 +212,9 @@ nav ul li a:hover {
 	position: relative;
   }
   
-.hover-animate h3:before, .hover-animate h3:after {
+  /* Top and Bottom Borders */
+  .hover-animate h3:before, .hover-animate h3:after,
+  .hover-animate div:before, .hover-animate div:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -220,45 +222,43 @@ nav ul li a:hover {
 	height: 2px;
 	background: #facd8a;
 	transition: transform 0.5s ease;
-	transform: scaleX(0);
-	transform-origin: left center; 
-}
-
-.hover-animate h3:before {
-	top: 0;
-}
-
-.hover-animate h3:after {
+	transform: scaleX(0); 
+	transform-origin: left center;
+  }
+  
+  .hover-animate h3:before, .hover-animate div:before { top: 0; }
+  .hover-animate h3:after, .hover-animate div:after {
 	bottom: 0;
 	transform-origin: right center;
-}
-
-.hover-animate div:before, .hover-animate div:after {
+  }
+  
+  /* Left and Right Borders */
+  .hover-animate h3::before, .hover-animate h3::after,
+  .hover-animate div::before, .hover-animate div::after {
 	content: '';
 	position: absolute;
-	left: 0;
-	right: 0;
-	height: 2px;
+	top: 0;
+	bottom: 0;
+	width: 2px;
 	background: #facd8a;
 	transition: transform 0.5s ease;
-	transform: scaleX(0);
-	transform-origin: left center;
-}
-
-.hover-animate div:before {
-top: 0;
-}
-
-.hover-animate div:after {
-bottom: 0;
-transform-origin: right center;
-}
-
-.hover-animate:hover h3:before, .hover-animate:hover h3:after,
-.hover-animate:hover div:before, .hover-animate:hover div:after {
-	transform: scale(1);
-}
+	transform: scaleY(0); 
+	transform-origin: top center;
+  }
   
+  .hover-animate h3::before, .hover-animate div::before { left: 0; }
+  .hover-animate h3::after, .hover-animate div::after {
+	right: 0;
+	transform-origin: bottom center;
+  }
+  
+  /* Hover State for All Borders */
+  .hover-animate:hover h3:before, .hover-animate:hover h3:after,
+  .hover-animate:hover h3::before, .hover-animate:hover h3::after,
+  .hover-animate:hover div:before, .hover-animate:hover div:after,
+  .hover-animate:hover div::before, .hover-animate:hover div::after {
+	transform: scale(1);
+  }
   
 .testimonials {
 	background-repeat: no-repeat;
