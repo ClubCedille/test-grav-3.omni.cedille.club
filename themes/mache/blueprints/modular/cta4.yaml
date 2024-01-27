@@ -1,4 +1,4 @@
-title: CTA 4
+title: CTA 2
 '@extends':
     type: default
 
@@ -10,11 +10,12 @@ form:
       fields:
         content:
           fields:
-            header.image:
+            header.background_image:
               type: filepicker
               folder: '@self'
               preview_images: true
-              label: THEME_MACHE.IMAGE
+              label: THEME_MACHE.BACKGROUND_IMAGE
               accept:
                 - .png
                 - .jpg
+

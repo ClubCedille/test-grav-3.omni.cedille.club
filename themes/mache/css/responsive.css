@@ -74,7 +74,7 @@ br{display:none;}
 }
 
 
-.cta2 {
+.cta2, .cta4 {
     padding: 83px 0 90px;
 }
 }
@@ -152,7 +152,7 @@ br{display:none;}
 .testimonials {
     padding: 60px 0;
 }
-.price , .features , .blog-list-list  , .cta2{
+.price , .features , .blog-list-list  , .cta2, .cta4 {
     padding: 40px 0;
 	text-align: center;
 }
