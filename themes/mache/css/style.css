@@ -409,18 +409,25 @@ transform-origin: right center;
 .joinnow {
 	padding: 70px 0;
 	background: linear-gradient(90deg, #171717 100%, rgba(0, 0, 0, 0.51) 47%, rgba(192, 192, 192, 0.15) 61%);
+	text-align: center;
 }
 .joinnow h2 {
 	color: #fff;
 	display: inline-block;
 	text-transform: uppercase;
 	font-style: normal;
-	margin-right: 20px;
 	margin-bottom: 0
 }
 .joinnow h2 span {
 	font-weight: 700;
 }
+
+.joinnow p {
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
 .joinnow a {
 	display: inline-block;
 	width: 200px;
