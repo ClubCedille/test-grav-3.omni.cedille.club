@@ -207,6 +207,15 @@ nav ul li a:hover {
 	color: #facd8a;
 	padding: 15px 0;
 }
+
+.hover-animate {
+	transition: transform 0.3s ease;
+  }
+  
+  .hover-animate:hover {
+	transform: scale(1.05); /* Adjust the scale value as needed */
+  }
+  
 .testimonials {
 	background-repeat: no-repeat;
 	background-position: center center;
