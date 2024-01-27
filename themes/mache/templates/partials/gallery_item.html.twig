@@ -27,7 +27,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
         <div class="modal-body">
-            {{ p. gallery_description }}
+            {% if p.header.gallery_description %}
+                <p>{{ p.header.gallery_description|raw }}</p>
+            {% endif %}
         </div>
     </div>
   </div>
