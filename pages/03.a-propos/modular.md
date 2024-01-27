@@ -8,8 +8,8 @@ content:
         dir: asc
         custom:
             - _banner
-            - _about
+            - _cta4
             - _cta3
-            - _vision
+            - _visions
 ---
 
