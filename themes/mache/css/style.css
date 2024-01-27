@@ -208,14 +208,18 @@ nav ul li a:hover {
 	padding: 15px 0;
 }
 
-.hover-animate {
-	transition: transform 0.3s ease;
+.hover-animate:before {
+	border-bottom: 1px solid #facd8a;
+	border-left: 1px solid #facd8a;
+	-webkit-transform-origin: 0 100%;
   }
   
-  .hover-animate:hover {
-	transform: scale(1.05); /* Adjust the scale value as needed */
+  .hover-animate:after {
+	border-top: 1px solid #facd8a;
+	border-right: 1px solid #facd8a;
+	-webkit-transform-origin: 100% 0%;
   }
-  
+
 .testimonials {
 	background-repeat: no-repeat;
 	background-position: center center;
