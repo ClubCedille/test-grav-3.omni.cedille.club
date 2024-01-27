@@ -1,6 +1,6 @@
 ---
 title: 'Call to Action'
-heading: 'Entrer en contact'
+heading: 'Rejoignez Notre Aventure Théâtrale!'
 button_label: 'Contactez nous'
 button_url: /contact
 ---
