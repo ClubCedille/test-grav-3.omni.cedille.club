@@ -131,7 +131,7 @@ span.line {
 .service, .vision {
     padding: 40px 0;
 }
-.service p, .vision, .price p.top, .blog-list-list p.top {
+.service p, .vision, .price p.top, .partenaire p.top, .blog-list-list p.top {
     padding-bottom: 30px;
 }
 br{display:none;}

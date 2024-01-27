@@ -349,58 +349,30 @@ transform-origin: right center;
 }
 
 /* Section partneraires */
-.partenaire .partenaire-container .black h2 {
-	font-size: 50px;
-	font-weight: 700;
-	font-style: normal;
-	line-height: 38px;
-	margin-bottom: 0;
+.partenaire-container {
+    position: relative;
+    overflow: hidden;
+    background: #000;
+    transition: background-color 0.5s ease; 
 }
-.partenaire .partenaire-container .black h2 span {
-	font-size: 20px;
-	font-weight: 700;
+
+.partenaire-container a {
+    display: block;
+    text-align: center; 
 }
-.partenaire .partenaire-container .black p {
-	line-height: 20px;
-	font-weight: 700;
-	padding-bottom: 0;
+
+.partenaire-container a img {
+    max-width: 100%;
+    height: auto; 
+    transition: opacity 0.5s ease;
 }
-.partenaire .partenaire-container {
-	background: #fff;
-	padding-bottom: 35px;
+
+.partenaire-container:hover {
+    background-color: #fff; 
 }
-.partenaire .partenaire-container h4 {
-	width: 200px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 50px;
-	background: #f4f4f4;
-	display: block;
-	color: #5a5a5a;
-	margin: -30px auto 35px;
-	font-weight: 700;
-}
-.partenaire .partenaire-container p {
-	padding-bottom: 10px;
-}
-.partenaire .partenaire-container a {
-	width: 200px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 50px;
-	background: #facd8a;
-	display: block;
-	color: #fff;
-	margin: 20px auto 0px;
-	font-weight: 700;
-}
-.partenaire .partenaire-container a:hover {
-	background: #5a5a5a;
-	color: #fff;
-	transition: all 0.4s;
-}
-.partenaire .partenaire-container:hover .black {
-	background: #facd8a;
+
+.partenaire-container:hover a img {
+    opacity: 0.5;
 }
 
 .features {
