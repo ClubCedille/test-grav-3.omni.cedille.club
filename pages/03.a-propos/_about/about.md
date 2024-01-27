@@ -2,8 +2,6 @@
 title: 'NOS OBJECTIFS'
 right_image: magieTheatre.png
 right_image_alt: 'Les Raconteurs d''angles'
-link_label: 'EN SAVOIR PLUS'
-link_url: /a-propos
 media_order: magieTheatre.png
 ---
 
