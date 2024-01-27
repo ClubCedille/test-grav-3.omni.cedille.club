@@ -1,6 +1,5 @@
 ---
-title: 'CE QUE NOUS FAISONS'
-menu: 'LE PROJET'
+title: 'Notre vision'
 services:
     -
         icon: s1.png
