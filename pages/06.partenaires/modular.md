@@ -8,8 +8,6 @@ content:
         dir: asc
         custom:
             - _banner
-media_order: blog-header.jpg
-heading: Partenaires
-background_image: blog-header.jpg
+            - _partenaires
 ---
 
