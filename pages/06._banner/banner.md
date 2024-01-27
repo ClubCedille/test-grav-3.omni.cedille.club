@@ -9,7 +9,7 @@ content:
         custom:
             - _banner
 media_order: blog-header.jpg
-heading: Partenaire
+heading: Partenaires
 background_image: blog-header.jpg
 ---
 
