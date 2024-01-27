@@ -2,7 +2,6 @@
 title: 'NOS OBJECTIFS'
 right_image: magieTheatre.png
 right_image_alt: 'Les Raconteurs d''angles'
-media_order: magieTheatre.png
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euiyd tincidunt ut laoreet dolore magna aliquam nibh utpat.Ullamcorper suscipit lobo nibh euiyd tinci- dunt ut laoreet.
