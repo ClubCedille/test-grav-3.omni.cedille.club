@@ -19,6 +19,12 @@ partenaires:
     -
         icon: logo-yellow.png
         partenaire_button_url: '#'
+    -
+        icon: cedille-logo-new.png
+        partenaire_button_url: '#'
+    -
+        icon: logo-yellow.png
+        partenaire_button_url: '#'
 media_order: 'cedille-logo-new.png,logo-yellow.png'
 ---
 
