@@ -1,0 +1,22 @@
+<div class="visions">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.3s">
+            <h2>{{ page.header.title|raw }}</h2>
+            <span class="line"></span>
+            {{ content|raw }}
+        </div>
+        </div>
+        {% if page.header.visions %}
+        <div class="row">
+            {% for element in page.header.visions %}
+            <div class="col-lg-3 col-sm-6 col-md-3 os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
+                <h3>{{ element.title|raw }}</h3>
+                <span class="line"></span>
+                {{ element.text|raw }}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>

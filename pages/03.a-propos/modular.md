@@ -10,6 +10,6 @@ content:
             - _banner
             - _about
             - _cta3
-            - services
+            - _vision
 ---
 

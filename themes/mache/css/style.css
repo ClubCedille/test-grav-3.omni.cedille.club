@@ -192,17 +192,17 @@ nav ul li a:hover {
 	top: 8px;
 	margin-left: 10px;
 }
-.services {
+.services, .vision {
 	padding: 120px 0 100px;
 	text-align: center;
 }
-.services p, div.top {
+.services p, .vision p, div.top {
 	padding-bottom: 80px;
 }
 .banner-alt div.top {
 	padding: 0;
 }
-.services h3 {
+.services h3, .vision h3 {
 	font-weight: 700;
 	color: #facd8a;
 	padding: 15px 0;
