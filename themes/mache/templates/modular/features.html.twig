@@ -3,14 +3,14 @@
     <div class="container">
         <div class="row">
             {% for feature in page.header.features %}
-            <div class="col-lg-4 col-sm-4 col-md-4 os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.3s">
+            <div class="col-lg-4 col-sm-6 col-md-4 os-animation" data-os-animation="bounceIn" data-os-animation-delay="0.3s">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-4 col-md-4">
+                    <div class="col-lg-3 col-sm-4 col-md-4 feature-icon">
                         {% if feature.icon %}
                         {{ page.media.images[feature.icon].cache.html|raw }}
                         {% endif %}
                     </div>
-                    <div class="col-lg-9 col-sm-8 col-md-8">
+                    <div class="col-lg-9 col-sm-8 col-md-8 feature-content">
                         <h3>{{ feature.title|raw }}</h3>
                         <p>{{ feature.description|raw }}</p>
                     </div>

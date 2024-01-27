@@ -406,6 +406,24 @@ transform-origin: right center;
 .features p {
 	padding: 5px 0 70px;
 }
+
+.features .feature-icon img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.features .feature-content {
+    padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .features .feature-content {
+        padding-left: 0;
+    }
+}
+
+
 .joinnow {
 	padding: 70px 0;
 	background: linear-gradient(90deg, #171717 100%, rgba(0, 0, 0, 0.51) 47%, rgba(192, 192, 192, 0.15) 61%);
