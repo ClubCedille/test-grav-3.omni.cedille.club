@@ -12,7 +12,7 @@ form:
           type: tab
           title: THEME_MACHE.PARTENAIRES
           fields:
-            header.prices:
+            header.partenaires:
               type: list
               label: THEME_MACHE.PARTENAIRES
               style: vertical
