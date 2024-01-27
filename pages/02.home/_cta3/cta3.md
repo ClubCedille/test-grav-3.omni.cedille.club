@@ -3,6 +3,7 @@ title: 'POURQUOI NOUS JOINDRE'
 button_label: 'NOUS JOINDRE'
 button_url: '#'
 image: safaribanner.png
+media_order: nousJoindre.png
 ---
 
 Un projet de production théâtrale apportera les retombées suivantes pour l’ÉTS ainsi que pour sa communauté :
