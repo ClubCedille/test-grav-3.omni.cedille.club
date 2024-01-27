@@ -407,6 +407,11 @@ a.showmore {
 	color: #fff;
 	background-size: cover;
 }
+
+.cta4 {
+	background-color:#2a2a2a;
+}
+
 .cta2 a , .cta3 a, .cta4 a, .button {
 	width: 200px;
 	height: 50px;
