@@ -10,11 +10,11 @@ form:
       fields:
         visions:
           type: tab
-          title: THEME_MACHE.VISION
+          title: THEME_MACHE.VISIONS
           fields:
             header.visions:
               type: list
-              label: THEME_MACHE.VISION
+              label: THEME_MACHE.VISIONS
               style: vertical
               fields:
                 .title:
