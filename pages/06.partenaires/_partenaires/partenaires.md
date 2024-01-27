@@ -2,28 +2,28 @@
 title: 'Nos Partenaires'
 partenaires:
     -
-        icon: cedille-logo-new.png
+        icon: cedille-logo-blanc.png
         partenaire_button_url: '#'
     -
         icon: logo-yellow.png
         partenaire_button_url: '#'
     -
-        icon: cedille-logo-new.png
+        icon: cedille-logo-blanc.png
         partenaire_button_url: '#'
     -
         icon: logo-yellow.png
         partenaire_button_url: '#'
     -
-        icon: cedille-logo-new.png
+        icon: logo-yellow.png
+        partenaire_button_url: '#'
+    -
+        icon: cedille-logo-blanc.png
         partenaire_button_url: '#'
     -
         icon: logo-yellow.png
         partenaire_button_url: '#'
     -
-        icon: cedille-logo-new.png
-        partenaire_button_url: '#'
-    -
-        icon: logo-yellow.png
+        icon: cedille-logo-blanc.png
         partenaire_button_url: '#'
 media_order: 'cedille-logo-new.png,logo-yellow.png,cedille-logo-blanc.png'
 ---
