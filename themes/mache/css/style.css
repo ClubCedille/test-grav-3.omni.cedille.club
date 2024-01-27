@@ -62,7 +62,7 @@ span.line {
 	height: 2px;
 	display: block;
 	margin: 30px auto;
-	background: #ed145b;
+	background: #facd8a;
 }
 header,
 .header {
@@ -106,7 +106,7 @@ nav ul li a {
 	color: black;
 }
 nav ul li a:hover {
-	color: #ed145b;
+	color: #facd8a;
 	transition: all 0.5s;
 }
 .banner {
@@ -137,21 +137,21 @@ nav ul li a:hover {
 	padding-bottom: 55px;
 }
 .banner a {
-    color: #ed145b;
+    color: #facd8a;
 }
 .banner .button-container a {
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
 	border-radius: 50px;
-	background: #ed145b;
+	background: #facd8a;
 	display: inline-block;
 	color: #fff;
 	font-weight: 700;
 }
 .banner .button-container a:hover {
 	background: #fff;
-	color: #ed145b;
+	color: #facd8a;
 	transition: all 0.4s;
 }
 .video {
@@ -183,7 +183,7 @@ nav ul li a:hover {
 	height: 392px;
 }
 .video a {
-	color: #ed145b;
+	color: #facd8a;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -204,7 +204,7 @@ nav ul li a:hover {
 }
 .services h3 {
 	font-weight: 700;
-	color: #ed145b;
+	color: #facd8a;
 	padding: 15px 0;
 }
 .testimonials {
@@ -274,7 +274,7 @@ nav ul li a:hover {
 	height: 50px;
 	line-height: 50px;
 	border-radius: 50px;
-	background: #ed145b;
+	background: #facd8a;
 	display: block;
 	color: #fff;
 	margin: 20px auto 0px;
@@ -286,21 +286,21 @@ nav ul li a:hover {
 	transition: all 0.4s;
 }
 .price .price-container:hover .black {
-	background: #ed145b;
+	background: #facd8a;
 }
 .features {
 	padding: 140px 0 50px;
 }
 .features h3 {
 	font-weight: 400;
-	color: #ed145b;
+	color: #facd8a;
 }
 .features p {
 	padding: 5px 0 70px;
 }
 .joinnow {
 	padding: 70px 0;
-	background: #ed145b;
+	background: #facd8a;
 }
 .joinnow h2 {
 	color: #fff;
@@ -320,7 +320,7 @@ nav ul li a:hover {
 	line-height: 50px;
 	border-radius: 50px;
 	background: #fff;
-	color: #ed145b;
+	color: #facd8a;
 	text-align: center;
 	font-weight: 700;
 	position: relative;
@@ -366,7 +366,7 @@ nav ul li a:hover {
 	bottom: 0;
 	left: 0px;
 	right: 0;
-	background: rgba(237,20,91,0.85);
+	background: #facd8a;
 	color: #fff;
 	width: 100%;
 	height: auto;
@@ -391,7 +391,7 @@ nav ul li a:hover {
 }
 a.showmore {
 	font-weight: 400;
-	color: #ed145b;
+	color: #facd8a;
 	display: block;
 	margin: 30px auto 0;
 	background: url(../images/down.png) no-repeat center 100%;
@@ -412,7 +412,7 @@ a.showmore {
 	height: 50px;
 	line-height: 50px;
 	border-radius: 50px;
-	background: #ed145b;
+	background: #facd8a;
 	display: block;
 	color: #fff;
 	margin: 40px auto 0px;
@@ -423,9 +423,9 @@ button.button {
 	border: none;
 	margin: 0;
 }
-.cta2 a:hover{background:#fff; color: #ed145b; transition:all 0.4s;}
-.cta3{
-	background:#f4f4f4;
+.cta2 a:hover{background:#fff; color: #facd8a; transition:all 0.4s;}
+.cta3, .cta4{
+	background:#000000;
 	padding:135px 0 160px;
 	position:relative;
 }
@@ -433,6 +433,12 @@ button.button {
 .cta3 span.line{margin:30px 0;}
 .cta3 a{margin:40px 0 0; text-align:center;}
 .cta3 a:hover{background:#5a5a5a; transition:all 0.5s;}
+
+.cta4 h2{text-align:left;}
+.cta4 span.line{margin:30px 0;}
+.cta4 a{margin:40px 0 0; text-align:center;}
+.cta4 a:hover{background:#5a5a5a; transition:all 0.5s;}
+
 .safariimg{position:absolute;     top: 7%;
     left: 3%;
     width: 43%;}
@@ -448,7 +454,7 @@ footer{
 	font-size:15px;
 }
 footer p a{color:#fff;}
-footer p a:hover{color: #ed145b;}
+footer p a:hover{color: #facd8a;}
 div.rightside{text-align:right;}
 
 
@@ -479,7 +485,7 @@ if it's not present, don't show loader */
  width: 100%;
  height: 100%;
  z-index: 9999;
- background: #ed145b;
+ background: #facd8a;
 }
 
 .box {
