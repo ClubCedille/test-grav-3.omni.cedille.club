@@ -1,10 +1,5 @@
 ---
-title: 'Mache Free PSD Template (Copy)'
-button_label: 'SHOW MORE'
-button_url: '#'
-background_image: freepsdanner.jpg
+title: 'Les Raconteurs d''Angles'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,<br>
-sunt in culpa qui officia deserunt mollit anim id est laborum.
+La troupe de théâtre Les Raconteurs d'angles vise à combler un manque dans les activités culturelles de l’ÉTS par l’implémentation d’une troupe de création théâtrale et par la mise en place d’activités promouvant les arts de la scène sous toutes ses formes. On parle donc ici d’aider à développer la créativité, les habiletés de communication et de gestion de projet de la communauté de l'ÉTS tout en mettant en valeur ce que les différents génies peuvent offrir dans une production théâtrale.
