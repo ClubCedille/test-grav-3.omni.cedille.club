@@ -460,6 +460,19 @@ transform-origin: right center;
 .blog .blog-container .pagination {
     margin: 1rem 0;
 }
+
+.gallery article {
+	text-align: left;
+	background: #f4f4f4;
+	margin-bottom: 60px;
+}
+
+.gallery .gallery-container {
+    margin: 3rem 0;
+}
+.gallery .gallery-container .pagination {
+    margin: 1rem 0;
+}
 .img {
 	position: relative;
 }

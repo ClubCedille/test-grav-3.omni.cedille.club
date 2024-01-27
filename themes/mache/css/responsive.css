@@ -73,6 +73,9 @@ br{display:none;}
     padding: 70px 0;
 }
 
+.gallery-list-list {
+    padding: 70px 0;
+}
 
 .cta2, .cta4 {
     padding: 83px 0 90px;
@@ -131,7 +134,7 @@ span.line {
 .service, .vision {
     padding: 40px 0;
 }
-.service p, .vision, .price p.top, .partenaire p.top, .blog-list-list p.top {
+.service p, .vision, .price p.top, .partenaire p.top, .blog-list-list p.top, .gallery-list-list p.top {
     padding-bottom: 30px;
 }
 br{display:none;}
@@ -152,7 +155,7 @@ br{display:none;}
 .testimonials {
     padding: 60px 0;
 }
-.price , .features , .blog-list-list  , .cta2, .cta4 {
+.price , .features , .blog-list-list  , .cta2, .cta4, .gallery-list-list {
     padding: 40px 0;
 	text-align: center;
 }
@@ -174,6 +177,11 @@ br{display:none;}
 .blog-list-list article {
     margin-bottom: 30px;
 }
+
+.gallery-list-list article {
+    margin-bottom: 30px;
+}
+
 .safariimg {
     position: relative;
     top: 0;

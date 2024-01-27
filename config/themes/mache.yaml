@@ -2,6 +2,8 @@ enabled: true
 left_footer: "&copy; 2015 COPYRIGHT MACHE TEMPLATE\n\nHébergé par Club Cédille"
 blog_thumbnail_width: 600
 blog_thumbnail_height: 450
+gallery_thumbnail_width: 600
+gallery_thumbnail_height: 450
 favicon: {  }
 logo:
   user/themes/mache/images/logo-yellow.png:

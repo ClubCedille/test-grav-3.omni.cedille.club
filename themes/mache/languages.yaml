@@ -13,6 +13,10 @@ en:
         BLOG_THUMBNAIL_WIDTH_HELP: Thumbnail of blog post is cropped to this width by Grav's cropZoom function.
         BLOG_THUMBNAIL_HEIGHT: Blog Post Thumbnail's Height
         BLOG_THUMBNAIL_HEIGHT_HELP: Thumbnail of blog post is cropped to this height by Grav's cropZoom function.
+        GALLERY_THUMBNAIL_WIDTH: Galerie Post Thumbnail's Width
+        GALLERY_THUMBNAIL_WIDTH_HELP: Thumbnail of galerie post is cropped to this width by Grav's cropZoom function.
+        GALLERY_THUMBNAIL_HEIGHT: Galerie Post Thumbnail's Height
+        GALLERY_THUMBNAIL_HEIGHT_HELP: Thumbnail of galerie post is cropped to this height by Grav's cropZoom function.
         DEFAULT_BACKGROUND_IMAGE: Default Background Image
         DEFAULT_BACKGROUND_IMAG_HELP: Image is uploaded to user/themes/mache/images folder.
         RIGHT_IMAGE: Right Image
@@ -49,7 +53,9 @@ en:
         OPENING_ICON: Opening Icon
         CLOSING_ICON: Closing Icon
         BLOG_ROUTE: Blog Page
+        GALERIE_ROUTE: Galerie Page
         SHOW_MORE_LABEL: Show More Link's Label
         BLOG_POST_QUANTITY: Blog Post Quantity
+        GALERIE_POST_QUANTITY: Galerie Post Quantity
         LIST_SUMMARY: Short Summary
         LIST_SUMMARY_HELP: Short summary shown in blog post list.
