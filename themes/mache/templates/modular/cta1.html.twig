@@ -3,8 +3,9 @@
         <div class="row">
             <div class="col-lg-12 os-animation" data-os-animation="fadeIn" data-os-animation-delay="0.5s">
                 <h2>{{ page.header.heading|raw }}</h2> 
-                {{ page.header.subheading|raw }}
-                <a href="{{ page.header.button_url}}">{{ page.header.button_label }}</a>
+                <span class="line"></span>
+                {{ content|raw }}
+                <a href="{{ page.header.button_url }}">{{ page.header.button_label }}</a>
             </div>
         </div>
     </div>
