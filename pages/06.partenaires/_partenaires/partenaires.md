@@ -2,23 +2,24 @@
 title: 'Nos Partenaires'
 partenaires:
     -
-        icon:``
+        icon: cedille-logo-new.png
         partenaire_button_url: '#'
     -
-        icon:``
+        icon: logo-yellow.png
         partenaire_button_url: '#'
     -
-        icon:``
+        icon: cedille-logo-new.png
         partenaire_button_url: '#'
     -
-        icon:``
+        icon: logo-yellow.png
         partenaire_button_url: '#'
     -
-        icon:``
+        icon: cedille-logo-new.png
         partenaire_button_url: '#'
     -
-        icon:``
+        icon: logo-yellow.png
         partenaire_button_url: '#'
+media_order: 'cedille-logo-new.png,logo-yellow.png'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
