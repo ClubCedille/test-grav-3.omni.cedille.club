@@ -207,41 +207,57 @@ nav ul li a:hover {
 	color: #facd8a;
 	padding: 15px 0;
 }
-.hover-animate {
+.hover-animate h3, .hover-animate div {
 	position: relative;
-	overflow: hidden; /* Make sure that the content does not overflow the boundaries of .hover-animate */
-	/* Other styles */
+  }
+  
+.hover-animate h3:before, .hover-animate h3:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background: #facd8a;
+	transition: transform 0.3s ease;
+	transform: scaleX(0);
+	transform-origin: left center; 
 }
 
-.hover-animate:before,
-.hover-animate:after {
-content: '';
-position: absolute;
-transition: transform 0.5s ease; 
-
+.hover-animate h3:before {
+	top: 0;
 }
 
-.hover-animate h3,
-.hover-animate div {
-transition: transform 0.5s ease; 
-transform: translateY(0);
+.hover-animate h3:after {
+	bottom: 0;
+	transform-origin: right center;
 }
 
-.hover-animate:hover:before {
-transform: scaleX(1);
+.hover-animate div:before, .hover-animate div:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background: #facd8a;
+	transition: transform 0.3s ease;
+	transform: scaleX(0);
+	transform-origin: left center;
 }
 
-.hover-animate:hover:after {
-transform: scaleY(1);
+.hover-animate div:before {
+top: 0;
 }
 
-.hover-animate:hover h3 {
-transform: translateY(-5px); 
+.hover-animate div:after {
+bottom: 0;
+transform-origin: right center;
 }
 
-.hover-animate:hover div {
-transform: translateY(5px);
-}  
+.hover-animate:hover h3:before, .hover-animate:hover h3:after,
+.hover-animate:hover div:before, .hover-animate:hover div:after {
+	transform: scaleX(1);
+}
+  
   
 .testimonials {
 	background-repeat: no-repeat;
