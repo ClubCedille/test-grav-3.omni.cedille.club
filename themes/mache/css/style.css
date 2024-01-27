@@ -408,7 +408,7 @@ transform-origin: right center;
 }
 .joinnow {
 	padding: 70px 0;
-	background: #FF8E00;
+	background: linear-gradient(90deg, #171717 100%, rgba(0, 0, 0, 0.51) 47%, rgba(192, 192, 192, 0.15) 61%);
 }
 .joinnow h2 {
 	color: #fff;

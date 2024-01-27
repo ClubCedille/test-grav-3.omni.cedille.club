@@ -13,6 +13,9 @@ form:
             header.heading:
               type: text
               label: THEME_MACHE.HEADING
+            header.subheading:
+              type: text
+              label: THEME_MACHE.SUBHEADING
             header.button_label:
               type: text
               label: THEME_MACHE.BUTTON_LABEL
