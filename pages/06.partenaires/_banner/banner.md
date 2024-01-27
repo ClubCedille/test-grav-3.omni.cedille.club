@@ -1,6 +1,6 @@
 ---
 title: Partenaires
-background_image: hero-background.jpg
+background_image: blog-header.jpg
 media_order: 'banner.png,acets.png'
 ---
 
