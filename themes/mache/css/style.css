@@ -207,48 +207,41 @@ nav ul li a:hover {
 	color: #facd8a;
 	padding: 15px 0;
 }
-
 .hover-animate {
 	position: relative;
-	transition: transform 0.3s ease;
-  }
-  
-  .hover-animate:before,
-  .hover-animate:after {
-	content: '';
-	position: absolute;
-	transition: transform 0.5s ease;
-  }
-  
-  .hover-animate:before {
-	border-bottom: 1px solid #facd8a;
-	border-left: 1px solid #facd8a;
-	transform-origin: 0 100%;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	transform: scale(0, 1);
-  }
-  
-  .hover-animate:after {
-	border-top: 1px solid #facd8a;
-	border-right: 1px solid #facd8a;
-	transform-origin: 100% 0%;
-	right: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	transform: scale(1, 0);
-  }
-  
-  .hover-animate:hover:before {
-	transform: scale(1);
-  }
-  
-  .hover-animate:hover:after {
-	transform: scale(1);
-  }
+	overflow: hidden; /* Make sure that the content does not overflow the boundaries of .hover-animate */
+	/* Other styles */
+}
+
+.hover-animate:before,
+.hover-animate:after {
+content: '';
+position: absolute;
+transition: transform 0.5s ease; 
+
+}
+
+.hover-animate h3,
+.hover-animate div {
+transition: transform 0.5s ease; 
+transform: translateY(0);
+}
+
+.hover-animate:hover:before {
+transform: scaleX(1);
+}
+
+.hover-animate:hover:after {
+transform: scaleY(1);
+}
+
+.hover-animate:hover h3 {
+transform: translateY(-5px); 
+}
+
+.hover-animate:hover div {
+transform: translateY(5px);
+}  
   
 .testimonials {
 	background-repeat: no-repeat;
