@@ -1,0 +1,20 @@
+title: CTA 4
+'@extends':
+    type: default
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        content:
+          fields:
+            header.image:
+              type: filepicker
+              folder: '@self'
+              preview_images: true
+              label: THEME_MACHE.IMAGE
+              accept:
+                - .png
+                - .jpg
