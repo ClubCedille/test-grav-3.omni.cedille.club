@@ -1,9 +1,10 @@
 ---
 title: 'La magie du théâtre avec Les Raconteurs d''angles'
-right_image: rightlaptop.png
-right_image_alt: 'Powerfull PSD template available for free!'
+right_image: magieTheatre.png
+right_image_alt: 'Les Raconteurs d''angles'
 link_label: 'EN SAVOIR PLUS'
-link_url: /test
+link_url: /a-propos
+media_order: magieTheatre.png
 ---
 
 Par ses spectacles, ses sorties culturelles et ses tables rondes, la troupe de théâtre Les Raconteurs d'angles offre une expérience qui vous transportera dans des histoires captivantes, des personnages mémorables et des idées novatrices.
