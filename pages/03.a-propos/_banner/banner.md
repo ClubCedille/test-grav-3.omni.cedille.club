@@ -1,8 +1,8 @@
 ---
 title: 'À propos'
-heading: '<span>L''art captivant sous tous les prismes</span>'
-button_label: 'En savoir plus'
+heading: '<span>À propos</span>'
 button_url: '#'
-background_image: hero-background.jpg
+background_image: contact-folding-img.jpg
+media_order: contact-folding-img.jpg
 ---
 
