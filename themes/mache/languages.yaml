@@ -59,3 +59,5 @@ en:
         GALERIE_POST_QUANTITY: Galerie Post Quantity
         LIST_SUMMARY: Short Summary
         LIST_SUMMARY_HELP: Short summary shown in blog post list.
+        GALLERY_DESCRIPTION: Short Description
+        GALLERY_DESCRIPTION_HELP: Short description shown in galerie post list.
