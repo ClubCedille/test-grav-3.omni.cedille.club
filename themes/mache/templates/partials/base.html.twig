@@ -72,16 +72,16 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-sm-8 col-md-8">
+                    <div class="col-lg-8 col-sm-8 col-md-8 mb-3">
                         <h3 style="color: #FF8E00;">{{ theme_config.left_footer_title|markdown }}</h3>
                         {{ theme_config.left_footer_address|markdown }}
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-md-4">
+                    <div class="col-lg-4 col-sm-4 col-md-4 mb-3">
                         <h3 style="color: #FF8E00;">{{ theme_config.right_footer_title|markdown }}</h3>
                         <ul class="list-unstyled">
                             {% for social in theme_config.right_footer_icons %}
                                 <li class="list-inline-item pe-3">
-                                    <a class="text-white" href="{{ social.url }}">
+                                    <a class="social-icons" href="{{ social.url }}" target="_blank">
                                         <i class="{{ social.icon }} fa-xl"></i>
                                     </a>
                                 </li>
@@ -92,10 +92,10 @@
                 <hr class="mx-3">
                 <div class="row text-center">
                     <p>© 2024 Personnalisée et déployée par 
-                        <a class="text-white" href="https://cedille.etsmtl.ca/">Club Cédille</a>
+                        <a href="https://cedille.etsmtl.ca/" target="_blank" style="color: #FF8E00;">Club Cédille</a>
                     </p>
                     <p>© 2015 Conçue et développée par MACHE Template de 
-                        <a class="text-white" href="https://symu.co/">SYMU.co</a>
+                        <a href="https://symu.co/" target="_blank" style="color: #FF8E00;">SYMU.co</a>
                     </p>
                 </div>
             </div>
