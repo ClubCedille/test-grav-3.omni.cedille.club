@@ -14,11 +14,10 @@
                 <a href="{{ page.header.button_url }}">{{ page.header.button_label }}</a>
                 {% endif %}
             </div>
-        </div>
+            {% if page.header.image %}
+            <div class="safariimg os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
+                {{ page.media.images[page.header.image].cache.html|raw }}
+            </div>
+            {% endif %}
     </div>
-    {% if page.header.image %}
-    <div class="safariimg os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
-        {{ page.media.images[page.header.image].cache.html|raw }}
-    </div>
-    {% endif %}
 </section>
