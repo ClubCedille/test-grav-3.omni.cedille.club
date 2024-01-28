@@ -172,16 +172,22 @@ nav ul li a:hover {
 .video p {
 	padding-bottom: 40px;
 }
+
+.video .container {
+    position: relative; 
+}
+
 .laptop {
 	position: absolute;
-	right: -5%;
+	right: 0;
 	top: 24%;
-	width: 55%;
+	width: auto;
+	max-width: 50%;
 }
 .laptop img {
 	max-width: 100%;
 	display: block;
-	max-height: 90vh;
+	max-height: 41vh;
 	object-fit: contain;
 }
 .video a {
