@@ -618,6 +618,10 @@ button.button {
     height: auto;
 }
 
+.cta3 .safariimg {
+    height: auto;
+}
+
 /* .safariimg{
 	position:absolute;     
 	top: 21%;
