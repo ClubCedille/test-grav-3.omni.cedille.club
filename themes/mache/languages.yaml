@@ -6,8 +6,12 @@ en:
         LOGO_HELP: Logo is uploaded to user/themes/mache/images folder.
         LEFT_FOOTER: Left Footer
         LEFT_FOOTER_HELP: Info shown on the left side of footer.
+        LEFT_FOOTER_TITLE: Left footer title
+        LEFT_FOOTER_ADDRESS: Left footer address
         RIGHT_FOOTER: Right Footer
         RIGHT_FOOTER_HELP: Info shown on the right side of footer.
+        RIGHT_FOOTER_TITLE: Right footer title
+        RIGHT_FOOTER_ICONS: Right footer icons
         RELATED_POSTS: Related Posts
         BLOG_THUMBNAIL_WIDTH: Blog Post Thumbnail's Width
         BLOG_THUMBNAIL_WIDTH_HELP: Thumbnail of blog post is cropped to this width by Grav's cropZoom function.
