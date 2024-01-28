@@ -1,5 +1,4 @@
 enabled: true
-left_footer: "&copy; 2015 COPYRIGHT MACHE TEMPLATE\n\nHébergé par Club Cédille"
 blog_thumbnail_width: 600
 blog_thumbnail_height: 450
 gallery_thumbnail_width: 600
@@ -19,4 +18,3 @@ default_background_image:
     type: image/jpeg
     size: 209416
     path: user/themes/mache/images/hero-background.jpg
-right_footer: "Test\n\ndada"
