@@ -593,12 +593,21 @@ button.button {
 	list-style: outside;
 }
 
-.safariimg{position:absolute;     top: 7%;
-    left: 3%;
-    width: 43%;}
-.safariimg img{max-width:100%; display:block;}
+.safariimg{
+	position:absolute;     
+	top: 21%;
+    left: -5%;
+    width: 43%;
+}
+.safariimg img{
+	max-width:100%; 
+	display:block;
+}
+
 @media only screen and (min-width: 1200px) {
-	.safariimg img {float: right; height: 428px;}
+	.safariimg img {
+		float: right; height: 428px;
+	}
 }
 footer{
 	padding:55px 0;
