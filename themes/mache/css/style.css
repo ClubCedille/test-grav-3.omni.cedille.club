@@ -598,9 +598,7 @@ button.button {
 .safariimg{
 	position:absolute;     
 	top: 21%;
-    left: -5%;
     width: 43%;
-	
 }
 .safariimg img{
 	max-width:100%; 
