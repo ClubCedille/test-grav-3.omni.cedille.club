@@ -472,7 +472,7 @@
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle"
+            "class": "nav-toggle mt-4"
           });
 
           // Determine where to insert the toggle
@@ -1719,6 +1719,7 @@ window.smoothScroll = (function (window, document, undefined) {
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
         content.push(document.getElementById(href).offsetTop + 200);
+        console.log(content.push(document.getElementById(href).offsetTop + 200));
       });
     };
 
