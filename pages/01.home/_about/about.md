@@ -1,5 +1,5 @@
 ---
-title: 'La magie du théâtre avec Les Raconteurs d''angles'
+title: 'LA MAGIE DU THÉÂTRE AVEC LES RACONTEURS D''ANGLES'
 right_image: magieTheatre.png
 right_image_alt: 'Les Raconteurs d''angles'
 link_label: 'EN SAVOIR PLUS'

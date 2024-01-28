@@ -7,7 +7,6 @@ media_order: nousJoindre.png
 ---
 
 Un projet de production théâtrale apportera les retombées suivantes pour l’ÉTS ainsi que pour sa communauté :
-
 * Visibilité externe
 * Élargissement des horizons culturels de la population de l'ÉTS
 * Développement de la pensée créative
