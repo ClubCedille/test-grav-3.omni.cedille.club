@@ -472,7 +472,7 @@
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle mt-4"
+            "class": "nav-toggle mt-5"
           });
 
           // Determine where to insert the toggle

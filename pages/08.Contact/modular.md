@@ -16,9 +16,9 @@ form:
     button_outer_classes: 'form-group col-md-6 col-sm-12'
     fields:
         -
-            name: name
+            name: nom
             label: Name
-            placeholder: 'Your name'
+            placeholder: 'Votre nom'
             autocomplete: 'on'
             type: text
             outerclasses: 'form-group col-md-6 col-sm-12'
@@ -26,9 +26,9 @@ form:
             validate:
                 required: true
         -
-            name: email
+            name: courriel
             label: Email
-            placeholder: 'Your email address'
+            placeholder: 'Votre courriel'
             type: email
             outerclasses: 'form-group col-md-6 col-sm-12'
             classes: col-md-12
@@ -37,7 +37,7 @@ form:
         -
             name: message
             label: Message
-            placeholder: 'Your message'
+            placeholder: 'Votre message'
             type: textarea
             rows: 5
             outerclasses: 'form-group col-md-12'
@@ -57,7 +57,7 @@ form:
     buttons:
         -
             type: submit
-            value: Submit
+            value: Soumettre
     process:
         -
             captcha:

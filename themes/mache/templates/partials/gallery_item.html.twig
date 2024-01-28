@@ -21,10 +21,10 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg"> 
-    <div class="modal-content">
-      <div class="modal-header">
+    <div class="modal-content" style="background-color: #2b2b2b;">
+      <div class="modal-header" style="color: #FF8E00;">
         <h1 class="modal-title fs-5" id="exampleModalLabel">{{ p. title }} {{ p. date|date("d.m.Y") }}</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="btn-close" style="background-color: #FF8E00" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         {% if image %}
@@ -32,7 +32,7 @@
             <img src="{{ p.media.images[image].url() }}" alt="{{ p.title }}" style="max-width: 100%; height: auto;">
         {% endif %}
         {% if p.header.gallery_description %}
-            <p>{{ p.header.gallery_description|raw }}</p>
+            <p style="color: #FF8E00;">{{ p.header.gallery_description|raw }}</p>
         {% endif %}
       </div>
     </div>
