@@ -464,8 +464,8 @@ transform-origin: right center;
 	top: 20px;
 }
 .joinnow a:hover {
-	background: #5a5a5a;
-	color: #fff;
+	background: #fff;
+	color: #FF8E00;
 	transition: all 0.4s;
 }
 .updates, .contact {
@@ -577,6 +577,9 @@ button.button {
 	display: inline-block;
 	border: none;
 	margin: 0;
+}
+button.button {
+	background:#fff; color: #FF8E00; transition:all 0.4s;
 }
 .cta2 a:hover{background:#fff; color: #FF8E00; transition:all 0.4s;}
 
@@ -1021,6 +1024,9 @@ if it's not present, don't show loader */
 }
 .related-posts .blog {
 	padding: 0px;
+}
+.contact {
+	background-color: #f4f4f4;
 }
 .contact .form-group {
 	margin-bottom: 1.5em;
