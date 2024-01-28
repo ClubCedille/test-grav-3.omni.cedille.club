@@ -165,6 +165,15 @@ br{display:none;}
 .features p {
     padding: 5px 0 24px;
 }
+
+.features .feature-icon img {
+    max-width: 50%;
+}
+
+.features .feature-content {
+    padding-left: 0;
+}
+
 .joinnow a {
     display: block;
      top: 0px;
