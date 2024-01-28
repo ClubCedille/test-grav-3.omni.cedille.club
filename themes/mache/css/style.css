@@ -598,6 +598,7 @@ button.button {
 .safariimg{
 	position:absolute;     
 	top: 21%;
+	left: -5%;
     width: 43%;
 }
 .safariimg img{
@@ -607,7 +608,9 @@ button.button {
 
 @media only screen and (min-width: 1200px) {
 	.safariimg img {
-		float: right; height: 428px;
+		float: right; 
+		height: 428px;
+		left: none;
 	}
 }
 footer{

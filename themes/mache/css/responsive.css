@@ -129,6 +129,7 @@ h2 {
     position: relative;
     right: 0;
     top: 0;
+    margin-bottom: 15px;
     width: 100%;
     max-width: none;
 }
@@ -140,7 +141,13 @@ h2 {
     height: auto;
 }
 .video span.line {
-    margin: 15px 0;
+    margin: 15px auto;
+}
+.cta3 span.line {
+    margin: 15px auto;
+}
+.cta3 a {
+    margin: 30px auto;
 }
 span.line {
     margin: 15px auto;
@@ -149,8 +156,9 @@ span.line {
     padding-bottom: 10px;
 }
 .video a {
-    margin-bottom: 15px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .service, .vision {
     padding: 40px 0;
