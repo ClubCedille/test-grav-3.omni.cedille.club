@@ -595,34 +595,7 @@ button.button {
 	list-style: outside;
 }
 
-.cta3 .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-}
-
-.cta3 .col-lg-6.col-sm-6.col-md-6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.cta3 .safariimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.cta3 .safariimg img {
-    width: 100%;
-    height: auto;
-}
-
-.cta3 .safariimg {
-    height: auto;
-}
-
-/* .safariimg{
+.safariimg{
 	position:absolute;     
 	top: 21%;
     left: -5%;
@@ -632,7 +605,7 @@ button.button {
 .safariimg img{
 	max-width:100%; 
 	display:block;
-} */
+}
 
 @media only screen and (min-width: 1200px) {
 	.safariimg img {
