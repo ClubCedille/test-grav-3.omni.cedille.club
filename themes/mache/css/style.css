@@ -179,7 +179,7 @@ nav ul li a:hover {
 
 .laptop {
 	position: absolute;
-	right: 0;
+	right: 16%;
 	top: 24%;
 	width: auto;
 	max-width: 50%;
@@ -187,6 +187,7 @@ nav ul li a:hover {
 .laptop img {
 	max-width: 100%;
 	display: block;
+	height: auto;
 	max-height: 41vh;
 	object-fit: contain;
 }

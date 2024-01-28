@@ -80,6 +80,13 @@ br{display:none;}
 .cta2, .cta4 {
     padding: 83px 0 90px;
 }
+.laptop {
+    position: relative;
+    right: 9%;
+    top: 40%;
+    width: auto;
+    max-width: 35%;
+}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -117,6 +124,14 @@ h2 {
     right: 0;
     top: 0;
     width: 100%;
+    max-width: none;
+}
+.laptop img {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
 }
 .video span.line {
     margin: 15px 0;
