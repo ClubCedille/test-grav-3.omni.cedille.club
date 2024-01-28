@@ -43,6 +43,15 @@ form:
         type: text
         label: THEME_MACHE.RIGHT_FOOTER_TITLE
         help: THEME_MACHE.RIGHT_FOOTER_TITLE_HELP
+    right_footer_icons:
+        type: list
+        label: THEME_MACHE.RIGHT_FOOTER_ICONS
+        help: THEME_MACHE.RIGHT_FOOTER_ICONS_HELP
+        style: vertical
+        fields:
+            .icon:
+                type: text
+                label: THEME_MACHE.ICON
     blog_thumbnail_width:
       type: number
       label: THEME_MACHE.BLOG_THUMBNAIL_WIDTH
