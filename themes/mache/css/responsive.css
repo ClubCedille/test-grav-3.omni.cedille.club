@@ -167,7 +167,8 @@ br{display:none;}
 }
 
 .features .feature-icon img {
-    max-width: 50%;
+    max-width: 40%;
+    display: block;
 }
 
 .features .feature-content {
