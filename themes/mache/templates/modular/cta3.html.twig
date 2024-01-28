@@ -1,6 +1,6 @@
 <section class="cta3">
     <div class="container">
-          <div class="row">
+        <div class="row">
              {% if page.header.image %}
             <div class="col-lg-6 col-sm-6 col-md-6">&nbsp;</div>
             <div class="col-lg-6 col-sm-6 col-md-6 os-animation" data-os-animation="fadeInRight" data-os-animation-delay="0.4s">
@@ -14,6 +14,7 @@
                 <a href="{{ page.header.button_url }}">{{ page.header.button_label }}</a>
                 {% endif %}
             </div>
+        </div>
             {% if page.header.image %}
             <div class="safariimg os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.4s">
                 {{ page.media.images[page.header.image].cache.html|raw }}
