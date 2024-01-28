@@ -181,7 +181,8 @@ nav ul li a:hover {
 .laptop img {
 	max-width: 100%;
 	display: block;
-	height: auto;
+	max-height: 90vh;
+	object-fit: contain;
 }
 .video a {
 	color: #FF8E00;
