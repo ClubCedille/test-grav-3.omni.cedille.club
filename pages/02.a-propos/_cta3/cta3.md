@@ -5,4 +5,4 @@ media_order: nosValeurs.png
 image: nosValeurs.png
 ---
 
-La troupe de théâtre est une communauté qui est ouverte à tout le monde. La création d'une pièce développera la créativité et l'innovation de chaque membre dans le respect.
+Notre troupe de théâtre est bien plus qu'un simple ensemble d'artistes ; c'est une communauté ouverte et accueillante où chacun, quel que soit son parcours, est invité à partager sa passion pour l'art dramatique. Nous valorisons la diversité des idées et des expériences car elles enrichissent nos créations et élargissent notre horizon artistique. Dans notre espace, chaque membre a la liberté de s'exprimer et de contribuer, créant ainsi un environnement dynamique et stimulant pour tous.
