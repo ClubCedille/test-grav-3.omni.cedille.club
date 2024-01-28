@@ -1719,7 +1719,7 @@ window.smoothScroll = (function (window, document, undefined) {
       forEach(links, function (i, el) {
         var href = links[i].getAttribute("href").replace("#", "");
         content.push(document.getElementById(href).offsetTop + 200);
-        console.log(content.push(document.getElementById(href).offsetTop + 200));
+        console.log(content);
       });
     };
 
