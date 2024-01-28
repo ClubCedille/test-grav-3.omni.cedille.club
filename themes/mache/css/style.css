@@ -578,7 +578,7 @@ button.button {
 	border: none;
 	margin: 0;
 }
-button.button {
+button.button:hover {
 	background:#fff; color: #FF8E00; transition:all 0.4s;
 }
 .cta2 a:hover{background:#fff; color: #FF8E00; transition:all 0.4s;}
