@@ -9,7 +9,9 @@ en:
         LEFT_FOOTER_TITLE_HELP: Title shown on the left side of footer.
         LEFT_FOOTER_ADDRESS_HELP: Address shown on the left side of footer.
         RIGHT_FOOTER_TITLE: Right footer title
+        RIGHT_FOOTER_SOCIAL_ICONS_BOOTSTRAP: Right footer social icons bootstrap
         RIGHT_FOOTER_TITLE_HELP: Title shown on the right side of footer.
+        RIGHT_FOOTER_SOCIAL_ICONS_BOOTSTRAP_HELP: Social icons from bootstrap shown on the right side of footer.
         RELATED_POSTS: Related Posts
         BLOG_THUMBNAIL_WIDTH: Blog Post Thumbnail's Width
         BLOG_THUMBNAIL_WIDTH_HELP: Thumbnail of blog post is cropped to this width by Grav's cropZoom function.
@@ -25,6 +27,7 @@ en:
         RIGHT_IMAGE_ALT: Right Image's Alt Text
         LINK_LABEL: Link's Label
         LINK_URL: Link's URL
+        LINK_SOCIAL_NETWORK: Link of social network
         BACKGROUND_IMAGE: Background Image
         HEADING: Heading
         BUTTON_LABEL: Button's Label

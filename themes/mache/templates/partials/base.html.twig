@@ -77,6 +77,15 @@
                     </div>
                     <div class="col-lg-4 col-sm-4 col-md-4">
                         <h3>{{ theme_config.right_footer_title|markdown }}</h3>
+                        <ul>
+                            {% for social in theme_config.right_footer_icons %}
+                                <li>
+                                    <a href="{{ social.url }}">
+                                        <i class="{{ social.icon }}"></i>
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
                 <hr class="mx-3">
