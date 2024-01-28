@@ -626,6 +626,7 @@ footer{
 }
 footer p a{color:#fff;}
 footer p a:hover{color: #FF8E00;}
+footer .social-icons{color:#fff;}
 footer .social-icons a:hover{color: #FF8E00;}
 div.rightside{text-align:right;}
 
