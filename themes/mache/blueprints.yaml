@@ -31,31 +31,30 @@ form:
       multiple: false
       accept:
         - image/*
-    left_footer:
-      label: THEME_MACHE.LEFT_FOOTER
-      help: THEME_MACHE.LEFT_FOOTER_HELP
-      fields:
-        left_footer_title:
-          type: text
-          label: THEME_MACHE.LEFT_FOOTER_TITLE
-        left_footer_address:
-          type: editor
-          label: THEME_MACHE.LEFT_FOOTER_ADDRESS
-    right_footer:
-      label: THEME_MACHE.RIGHT_FOOTER
-      help: THEME_MACHE.RIGHT_FOOTER_HELP
-      fields:
-        right_footer_title:
-          type: text
-          label: THEME_MACHE.RIGHT_FOOTER_TITLE
-        right_footer_icons:
-          type: list
-          label: THEME_MACHE.RIGHT_FOOTER_ICONS
-          style: vertical
-          fields:
-            .icon:
-              type: text
-              label: THEME_MACHE.ICON
+    left_footer_title:
+        type: text
+        label: THEME_MACHE.LEFT_FOOTER_TITLE
+        help: THEME_MACHE.LEFT_FOOTER_TITLE_HELP
+    left_footer_address:
+        type: editor
+        label: THEME_MACHE.LEFT_FOOTER_ADDRESS
+        help: THEME_MACHE.LEFT_FOOTER_ADDRESS_HELP
+    right_footer_title:
+        type: text
+        label: THEME_MACHE.RIGHT_FOOTER_TITLE
+        help: THEME_MACHE.RIGHT_FOOTER_TITLE_HELP
+        # fields:
+        #     right_footer_title:
+        #     type: text
+        #     label: THEME_MACHE.RIGHT_FOOTER_TITLE
+        #     right_footer_icons:
+        #         type: list
+        #     label: THEME_MACHE.RIGHT_FOOTER_ICONS
+        #     style: vertical
+        #     fields:
+        #         .icon:
+        #         type: text
+        #         label: THEME_MACHE.ICON
     blog_thumbnail_width:
       type: number
       label: THEME_MACHE.BLOG_THUMBNAIL_WIDTH
