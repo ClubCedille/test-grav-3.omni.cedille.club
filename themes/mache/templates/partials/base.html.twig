@@ -78,10 +78,10 @@
                     </div>
                     <div class="col-lg-4 col-sm-4 col-md-4 mb-3">
                         <h3 style="color: #FF8E00;">{{ theme_config.right_footer_title|markdown }}</h3>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled social-icons">
                             {% for social in theme_config.right_footer_icons %}
                                 <li class="list-inline-item pe-3">
-                                    <a class="social-icons" href="{{ social.url }}" target="_blank">
+                                    <a href="{{ social.url }}" target="_blank">
                                         <i class="{{ social.icon }} fa-xl"></i>
                                     </a>
                                 </li>
