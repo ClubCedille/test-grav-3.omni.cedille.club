@@ -31,7 +31,7 @@
 }
 
 .safariimg {
-    left: none;
+    left: auto;
 }
 }
 
@@ -96,6 +96,9 @@ br{display:none;}
     top: 40%;
     width: auto;
     max-width: 35%;
+}
+.safariimg {
+    left: auto;
 }
 }
 
