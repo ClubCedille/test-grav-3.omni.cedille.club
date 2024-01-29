@@ -179,7 +179,7 @@ nav ul li a:hover {
 
 .laptop {
 	position: absolute;
-	right: 16%;
+	right: 0;
 	top: 24%;
 	width: auto;
 	max-width: 50%;
