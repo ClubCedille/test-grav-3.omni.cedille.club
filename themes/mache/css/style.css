@@ -228,57 +228,6 @@ nav ul li a:hover {
 	padding: 15px 0;
 }
 
-.hover-animate h3, .hover-animate div {
-	position: relative;
-  }
-  
-.hover-animate h3:before, .hover-animate h3:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 2px;
-	background: #FF8E00;
-	transition: transform 0.5s ease;
-	transform: scale(0);
-	transform-origin: left center; 
-}
-
-.hover-animate h3:before {
-	top: 0;
-}
-
-.hover-animate h3:after {
-	bottom: 0;
-	transform-origin: right center;
-}
-
-.hover-animate div:before, .hover-animate div:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	height: 2px;
-	background: #FF8E00;
-	transition: transform 0.5s ease;
-	transform: scale(0);
-	transform-origin: left center;
-}
-
-.hover-animate div:before {
-top: 0;
-}
-
-.hover-animate div:after {
-bottom: 0;
-transform-origin: right center;
-}
-
-.hover-animate:hover h3:before, .hover-animate:hover h3:after,
-.hover-animate:hover div:before, .hover-animate:hover div:after {
-	transform: scale(1);
-}
-
 .testimonials {
 	background-repeat: no-repeat;
 	background-position: center center;
