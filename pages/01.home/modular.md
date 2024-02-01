@@ -7,7 +7,7 @@ content:
         by: default
         dir: asc
         custom:
-            - _banner
+            - _banner-accueil
             - _about
             - _cta3
             - _features
