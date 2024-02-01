@@ -119,28 +119,39 @@ nav ul li a:hover {
 	position: relative;
 	z-index: 100;
 }
+
+.bannerAccueil {
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	padding: 343px 0 348px;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+}
+
 .banner.banner-alt {
 	padding: 100px 0 100px;
 }
-.banner h1 {
+.banner h1, .bannerAccueil {
 	font-size: 46px;
 	line-height: 100%;
 	color: #fff;
 	text-transform: uppercase;
 }
-.banner h1 span {
+.banner h1 span, .bannerAccueil h1 span{
 	font-weight: 700;
 }
-.banner p {
+.banner p, .bannerAccueil p{
 	color: #fff;
 	font-size: 22px;
 	line-height: 38px;
 	padding-bottom: 55px;
 }
-.banner a {
+.banner a, .bannerAccueil a {
     color: #FF8E00;
 }
-.banner .button-container a {
+.banner .button-container a, .bannerAccueil .button-container a{
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
@@ -150,7 +161,7 @@ nav ul li a:hover {
 	color: #fff;
 	font-weight: 700;
 }
-.banner .button-container a:hover {
+.banner .button-container a:hover, .bannerAccueil .button-container a:hover {
 	background: #fff;
 	color: #FF8E00;
 	transition: all 0.4s;
