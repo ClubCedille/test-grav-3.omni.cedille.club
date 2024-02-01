@@ -62,7 +62,7 @@ span.line {
 	width: 200px;
 	height: 2px;
 	display: block;
-	margin: 30px auto;
+	margin: 20px auto;
 	background: #FF8E00;
 }
 header,
@@ -206,7 +206,7 @@ nav ul li a:hover {
 	text-align: center;
 }
 .services p, .vision p, div.top {
-	padding-bottom: 80px;
+	padding-bottom: 10px;
 }
 .banner-alt div.top {
 	padding: 0;
@@ -469,7 +469,7 @@ transform-origin: right center;
 	transition: all 0.4s;
 }
 .updates, .contact {
-	padding: 120px 0 100px;
+	padding: 30px 0 20px;
 	text-align: center;
 }
 .blog article {
