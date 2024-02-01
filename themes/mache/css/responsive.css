@@ -2,7 +2,7 @@
 /* #Media Queries
 ================================================== */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-	.banner {
+	.banner, .banner-accueil {
     padding: 200px 0 200px;
 	}
 	.bx-wrapper .bx-prev {
@@ -37,7 +37,7 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.banner {
+	.banner, .banner-accueil {
     padding: 200px 0 200px;
 	}
 	.bx-wrapper .bx-prev {
@@ -113,16 +113,16 @@ br{display:none;}
 	.logo {
     padding: 16px 0;
 }
-.banner h1 {
+.banner h1, .banner-accueil h1{
     font-size: 30px;
     line-height: 40px;
 }
-.banner p {
+.banner p, .banner-accueil p{
     font-size: 16px;
     line-height: 28px;
     padding-bottom: 20px;
 }
-.banner {
+.banner, .banner-accueil {
     padding: 100px 0 70px;
 }
 h2 {

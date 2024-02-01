@@ -120,7 +120,7 @@ nav ul li a:hover {
 	z-index: 100;
 }
 
-.bannerAccueil {
+.banner-accueil {
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: cover;
@@ -133,25 +133,25 @@ nav ul li a:hover {
 .banner.banner-alt {
 	padding: 100px 0 100px;
 }
-.banner h1, .bannerAccueil {
+.banner h1, .banner-accueil h1{
 	font-size: 46px;
 	line-height: 100%;
 	color: #fff;
 	text-transform: uppercase;
 }
-.banner h1 span, .bannerAccueil h1 span{
+.banner h1 span, .banner-accueil h1 span{
 	font-weight: 700;
 }
-.banner p, .bannerAccueil p{
+.banner p, .banner-accueil p{
 	color: #fff;
 	font-size: 22px;
 	line-height: 38px;
 	padding-bottom: 55px;
 }
-.banner a, .bannerAccueil a {
+.banner a, .banner-accueil a {
     color: #FF8E00;
 }
-.banner .button-container a, .bannerAccueil .button-container a{
+.banner .button-container a, .banner-accueil .button-container a{
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
@@ -161,7 +161,7 @@ nav ul li a:hover {
 	color: #fff;
 	font-weight: 700;
 }
-.banner .button-container a:hover, .bannerAccueil .button-container a:hover {
+.banner .button-container a:hover, .banner-accueil .button-container a:hover {
 	background: #fff;
 	color: #FF8E00;
 	transition: all 0.4s;
