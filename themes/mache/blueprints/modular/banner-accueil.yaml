@@ -1,4 +1,4 @@
-title: bannerAccueil
+title: banner-accueil
 '@extends':
     type: default
 
