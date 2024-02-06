@@ -12,7 +12,9 @@ content:
     limit: 6
     pagination: true
 feed:
-    description: 'Galeries'
+    description: Galeries
     limit: 10
 pagination: true
+visible: false
 ---
+
