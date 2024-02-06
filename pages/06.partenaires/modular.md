@@ -9,5 +9,6 @@ content:
         custom:
             - _banner
             - _partenaires
+visible: false
 ---
 
