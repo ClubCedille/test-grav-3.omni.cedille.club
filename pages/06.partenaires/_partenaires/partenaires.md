@@ -26,6 +26,7 @@ partenaires:
         icon: cedille-logo-blanc.png
         partenaire_button_url: '#'
 media_order: 'cedille-logo-new.png,logo-yellow.png,cedille-logo-blanc.png'
+visible: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
