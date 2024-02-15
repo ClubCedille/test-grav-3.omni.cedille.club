@@ -11,7 +11,7 @@ content:
             - _about
             - _cta3
             - _features
-            - _partenaire
+            - _partenaires
             - _cta1
 form:
     action: /home
